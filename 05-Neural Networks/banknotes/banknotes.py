@@ -1,5 +1,9 @@
 import csv
+import os
+# # Disable GPU warnings
+# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import tensorflow as tf
+import numpy as np
 
 from sklearn.model_selection import train_test_split
 
@@ -7,7 +11,7 @@ from sklearn.model_selection import train_test_split
 with open("banknotes.csv") as f:
     reader = csv.reader(f)
     next(reader)
-
+    # test comment
     data = []
     for row in reader:
         data.append({
@@ -22,11 +26,20 @@ X_training, X_testing, y_training, y_testing = train_test_split(
     evidence, labels, test_size=0.4
 )
 
+# Convert to NumPy arrays
+X_training = np.array(X_training)
+y_training = np.array(y_training)
+X_testing = np.array(X_testing)
+y_testing = np.array(y_testing)
+
 # Create a neural network
 model = tf.keras.models.Sequential()
 
+# Specify input shape
+model.add(tf.keras.layers.Input(shape=(4,)))
+
 # Add a hidden layer with 8 units, with ReLU activation
-model.add(tf.keras.layers.Dense(8, input_shape=(4,), activation="relu"))
+model.add(tf.keras.layers.Dense(8, activation="relu"))
 
 # Add output layer with 1 unit, with sigmoid activation
 model.add(tf.keras.layers.Dense(1, activation="sigmoid"))
