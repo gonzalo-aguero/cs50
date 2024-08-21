@@ -12,7 +12,7 @@ IMG_HEIGHT = 30
 NUM_CATEGORIES = 43
 TEST_SIZE = 0.4
 
-
+print("Dependencias cargadas")
 def main():
 
     # Check command-line arguments
@@ -21,7 +21,7 @@ def main():
 
     # Get image arrays and labels for all image files
     images, labels = load_data(sys.argv[1])
-
+    
     # Split data into training and testing sets
     labels = tf.keras.utils.to_categorical(labels)
     x_train, x_test, y_train, y_test = train_test_split(
@@ -58,8 +58,19 @@ def load_data(data_dir):
     be a list of integer labels, representing the categories for each of the
     corresponding `images`.
     """
-    raise NotImplementedError
-
+    images = []
+    labels = []
+    for category in os.listdir(data_dir):
+        category_dir = os.path.join(data_dir, str(category))
+        for filename in os.listdir(category_dir):
+            img_path = os.path.join(category_dir, filename)
+            img = cv2.imread(img_path)
+            img = cv2.resize(img, (IMG_WIDTH, IMG_HEIGHT))
+            images.append(img)
+            labels.append(category)
+            print(img_path, "cargada exitosamente")
+    print("Carga de imagenes completada.")
+    return images, labels
 
 def get_model():
     """
@@ -67,7 +78,11 @@ def get_model():
     `input_shape` of the first layer is `(IMG_WIDTH, IMG_HEIGHT, 3)`.
     The output layer should have `NUM_CATEGORIES` units, one for each category.
     """
-    raise NotImplementedError
+    
+    
+    input("Press Enter to continue")
+    
+    exit()
 
 
 if __name__ == "__main__":

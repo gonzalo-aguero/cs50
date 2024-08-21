@@ -1,0 +1,1 @@
+- Don't use "python" alias, use python3.12 binary name instead.
