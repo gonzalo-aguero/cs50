@@ -302,5 +302,309 @@
             "test_loss": 0.5247320532798767,
             "training_time": 335.039
         }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 32,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.15
+        },
+        "results": {
+            "accuracy": 0.8912037014961243,
+            "loss": 0.41261860728263855,
+            "test_accuracy": 0.9176989197731018,
+            "test_loss": 0.3294247090816498,
+            "training_time": 330.224
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 32,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.1
+        },
+        "results": {
+            "accuracy": 0.9402527809143066,
+            "loss": 0.23408067226409912,
+            "test_accuracy": 0.9219219088554382,
+            "test_loss": 0.3396836817264557,
+            "training_time": 366.202
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 32,
+            "kernel_size": 5,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.1
+        },
+        "results": {
+            "accuracy": 0.9406281113624573,
+            "loss": 0.25066685676574707,
+            "test_accuracy": 0.9048423171043396,
+            "test_loss": 0.49262815713882446,
+            "training_time": 326.021
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 32,
+            "kernel_size": 7,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.1
+        },
+        "results": {
+            "accuracy": 0.9176051020622253,
+            "loss": 0.35021650791168213,
+            "test_accuracy": 0.9270833134651184,
+            "test_loss": 0.382205992937088,
+            "training_time": 287.967
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 32,
+            "kernel_size": 9,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.1
+        },
+        "results": {
+            "accuracy": 0.9109109044075012,
+            "loss": 0.36121639609336853,
+            "test_accuracy": 0.9124436974525452,
+            "test_loss": 0.38294532895088196,
+            "training_time": 251.76
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 32,
+            "kernel_size": 2,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.1
+        },
+        "results": {
+            "accuracy": 0.8718718886375427,
+            "loss": 0.47595107555389404,
+            "test_accuracy": 0.8931118845939636,
+            "test_loss": 0.4130854308605194,
+            "training_time": 335.549
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 64,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.1
+        },
+        "results": {
+            "accuracy": 0.8691191077232361,
+            "loss": 0.4703383147716522,
+            "test_accuracy": 0.9060623049736023,
+            "test_loss": 0.3876016438007355,
+            "training_time": 556.155
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 16,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.1
+        },
+        "results": {
+            "accuracy": 0.9206081032752991,
+            "loss": 0.3184349834918976,
+            "test_accuracy": 0.9143205881118774,
+            "test_loss": 0.36087766289711,
+            "training_time": 172.357
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 16,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.15
+        },
+        "results": {
+            "accuracy": 0.9466341137886047,
+            "loss": 0.23629127442836761,
+            "test_accuracy": 0.9327139854431152,
+            "test_loss": 0.29895859956741333,
+            "training_time": 171.784
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 16,
+            "kernel_size": 5,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.15
+        },
+        "results": {
+            "accuracy": 0.924924910068512,
+            "loss": 0.3043864965438843,
+            "test_accuracy": 0.9063438177108765,
+            "test_loss": 0.4354102313518524,
+            "training_time": 156.939
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 8,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.15
+        },
+        "results": {
+            "accuracy": 0.8939564824104309,
+            "loss": 0.39757275581359863,
+            "test_accuracy": 0.9112237095832825,
+            "test_loss": 0.3448556661605835,
+            "training_time": 103.027
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 12,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.15
+        },
+        "results": {
+            "accuracy": 0.8616116046905518,
+            "loss": 0.4953841269016266,
+            "test_accuracy": 0.9069069027900696,
+            "test_loss": 0.3409583270549774,
+            "training_time": 140.374
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 12,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.15
+        },
+        "results": {
+            "accuracy": 0.9173548817634583,
+            "loss": 0.33096471428871155,
+            "test_accuracy": 0.9021208882331848,
+            "test_loss": 0.4244227111339569,
+            "training_time": 139.705
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 20,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.15
+        },
+        "results": {
+            "accuracy": 0.9147897958755493,
+            "loss": 0.3417060673236847,
+            "test_accuracy": 0.8909534811973572,
+            "test_loss": 0.44215506315231323,
+            "training_time": 224.122
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 16,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.1
+        },
+        "results": {
+            "accuracy": 0.9050300121307373,
+            "loss": 0.3553774058818817,
+            "test_accuracy": 0.9094406962394714,
+            "test_loss": 0.36710062623023987,
+            "training_time": 170.792
+        }
+    },
+    {
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "epochs": 10,
+            "filters": 16,
+            "kernel_size": 3,
+            "dense1": 256,
+            "dense2": 256,
+            "dense3": 256,
+            "dropout": 0.2
+        },
+        "results": {
+            "accuracy": 0.8957082033157349,
+            "loss": 0.4061705768108368,
+            "test_accuracy": 0.9016516804695129,
+            "test_loss": 0.3959212303161621,
+            "training_time": 166.939
+        }
     }
 ]

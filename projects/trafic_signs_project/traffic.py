@@ -15,12 +15,12 @@ NUM_CATEGORIES = 43
 TEST_SIZE = 0.4
 
 LEARNING_RATE = 0.001
-FILTERS = 32
+FILTERS = 16
 KERNEL_SIZE = 3
 DENSE1 = 256
 DENSE2 = 256
 DENSE3 = 256
-DROPOUT = 0.15
+DROPOUT = 0.2
 
 
 def main():
@@ -106,7 +106,9 @@ def get_model():
 
         # Add a hidden layer with dropout
         tf.keras.layers.Dense(DENSE1, activation="relu"),
+        tf.keras.layers.Dropout(DROPOUT),
         tf.keras.layers.Dense(DENSE2, activation="relu"),
+        tf.keras.layers.Dropout(DROPOUT),
         tf.keras.layers.Dense(DENSE3, activation="relu"),
         tf.keras.layers.Dropout(DROPOUT),
 
